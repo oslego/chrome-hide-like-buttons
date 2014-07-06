@@ -7,7 +7,7 @@
   This DOES NOT prevent exectution of any tracking code. To protect agains that
   use other exetensions or techniques.
 */
-.fb_iframe_widget,
+body .fb_iframe_widget,
 fb\:like iframe,
 iframe[src^="//www.facebook.com/plugins/like.php"]{
   display: none;
@@ -19,3 +19,5 @@ iframe[src^="//www.facebook.com/plugins/like.php"]{
     See: http://jakearchibald.com/2014/visible-undoes-hidden/
   */
 }
+
+body{background: lime}
