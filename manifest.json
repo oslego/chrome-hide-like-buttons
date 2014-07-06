@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook Detox",
+  "version": "1.0.0",
+  "author": "Razvan Caliman <razvan.caliman@gmail.com>",
+  "description": "Removes Facebook Like buttons from the web pages you visit.",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css": ["style.css"]
+  }]
+}

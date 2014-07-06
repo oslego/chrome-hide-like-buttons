@@ -1,0 +1,21 @@
+/*
+  Pages across the web are littered with Facebook Like buttons.
+  This stylesheet targets official variations of Like buttons and hides them.
+
+  See: https://developers.facebook.com/docs/plugins/like-button
+
+  This DOES NOT prevent exectution of any tracking code. To protect agains that
+  use other exetensions or techniques.
+*/
+.fb_iframe_widget,
+fb\:like iframe,
+iframe[src^="//www.facebook.com/plugins/like.php"]{
+  display: none;
+  /*
+    Cannot use `visibility: hidden` to preserve layout consistency.
+    There is a descendant <iframe> with inline styles
+    that enforce `visibility: visible` and that overrides the ancestor's visiblity.
+
+    See: http://jakearchibald.com/2014/visible-undoes-hidden/
+  */
+}
