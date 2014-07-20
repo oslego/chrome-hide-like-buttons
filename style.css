@@ -9,7 +9,9 @@
 */
 body .fb_iframe_widget,
 fb\:like iframe,
-iframe[src^="//www.facebook.com/plugins/like.php"]{
+iframe[src^="//www.facebook.com/plugins/like.php"],
+iframe[src^="http://www.facebook.com/plugins/like.php"],
+iframe[src^="https://www.facebook.com/plugins/like.php"]{
   display: none;
   /*
     Cannot use `visibility: hidden` to preserve layout consistency.

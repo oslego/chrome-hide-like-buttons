@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Facebook Like Detox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Razvan Caliman <razvan.caliman@gmail.com>",
   "description": "Remove Facebook Like buttons from the web pages you visit.",
   "permissions": [
