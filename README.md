@@ -1,4 +1,4 @@
-# FB Detox
+# Hide Like Buttons
 
 A simple Google Chrome extension that automatically hides Facebook Like buttons from web pages.
 
