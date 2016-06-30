@@ -1,0 +1,6 @@
+{
+  "name": "chrome-hide-like-buttons",
+  "scripts": {
+    "release": "zip -r chrome-hide-like-buttons.zip . --exclude *.git* test.html README.md package.json"
+  }
+}
